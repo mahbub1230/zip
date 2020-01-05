@@ -1,0 +1,30 @@
+version: '3.3'
+services:
+  web:
+    build:
+        context: .
+        dockerfile: Dockerfile
+    container_name: php73
+    depends_on:
+      - db
+    volumes:
+      - .:/var/www/html/zip/
+    ports:
+      - "8008:80"
+  db:
+    container_name: mysql57
+    image: mysql:5.7
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    volumes:
+      - db-data:/var/lib/mysql
+      - ./database/zipmoney.sql:/docker-entrypoint-initdb.d/0_init.sql
+    volumes:
+      - .:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: zipmoney
+      MYSQL_USER: devuser
+      MYSQL_PASSWORD: devpass
+    ports:
+      - "6033:3306"
