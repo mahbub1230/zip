@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54a7db37-993a-4518-8ea9-b52bde96505d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/create_account_need_to_pass_user_email.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_account_by_account_id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_accounts_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_user_by_id.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_users_list.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_to_create_account_who's_income_is_less_than+$1000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_to_create_user_but_email_is_missing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_to_create_user_with_negative_salary.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578191102427</updated>
-      <workItem from="1578191104640" duration="7958000" />
+      <workItem from="1578191104640" duration="9629000" />
     </task>
     <servers />
   </component>
