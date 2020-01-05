@@ -4,11 +4,11 @@ class DB
 {
     private static function connect()
     {
-        $dbhost="localhost";
-		$dbuser="root";
-		$dbpass="";
-		$dbname="zipmoney";
-        $pdo =  new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass); 
+        $dbhost = "localhost";
+        $dbuser = "root";
+        $dbpass = "";
+        $dbname = "zipmoney";
+        $pdo = new PDO("mysql:host=$dbhost;dbname=$dbname", $dbuser, $dbpass);
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         return $pdo;
